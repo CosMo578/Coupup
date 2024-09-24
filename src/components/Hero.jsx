@@ -32,7 +32,18 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <img className='absolute right-8' src="/images/Gradient-2.svg" alt="" />
+
+      <img
+        className='absolute lg:right-8 -right-[45%] -translate-y-24'
+        src='/images/Gradient-2.svg'
+        alt=''
+      />
+
+      <img
+        className='absolute top-1/2 left-0 -translate-y-1/2'
+        src='/svg/footer-gradient.svg'
+        alt=''
+      />
     </main>
   );
 };

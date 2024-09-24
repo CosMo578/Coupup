@@ -63,71 +63,45 @@ const ThirdSection = () => {
           </div>
           {/* <!-- Item 2 --> */}
           {/* <div
-            className='hidden duration-700 ease-in-out bg-blue-primary'
+            className='hidden duration-700 ease-in-out bg-blue-primary relative top-1/2 -translate-y-1/2'
             data-carousel-item>
-            <div className='flex flex-col lg:flex-row gap-8 items-center rounded-lg p-8 xl:mx-20'>
-              <img
-                className='rounded-lg'
-                src='/assets/images/joseph.png'
-                alt='joseph image'
-              />
+            <div className='grid lg:grid-cols-2 gap-14 items-center max-lg:px-16 xl:mx-20'>
+              <div className='space-y-6 hidden lg:block'>
+                <div className='flex items-center justify-between'>
+                  <div className='flex gap-4 items-center'>
+                    <img src='/images/car-img-1.png' alt='' />
 
-              <div className='space-y-6 text-center lg:text-left'>
-                <div className='space-y-2'>
-                  <h2 className='font-medium text-xl text-gold'>
-                    Joseph Ibiyemi Maxwelli
-                  </h2>
-                  <p>Product Designer, Bamboo</p>
+                    <div>
+                      <h2 className='font-semibold text-lg'>David Liyan</h2>
+                      <p className='text-sm'>Twitter</p>
+                    </div>
+                  </div>
+
+                  <img src='/svg/stars.svg' alt='' />
                 </div>
 
-                <p>
-                  I have always wanted to make a career transition to product
-                  design, Vorem made it happen for me. With the hands-on
-                  learning style, real-life business cases and unending
-                  mentorship from my trainers and coaches, I was very impressed
-                  with the project my team and I did in the class, which was hat
-                  i added to my portfolio, and with
+                <p className='text-3xl font-semibold'>
+                  I&apos;ve tested numerous token, but this one is leaps and
+                  bounds ahead of the competition. It&apos;s phenomenal.
                 </p>
-
-                <div className='flex gap-4 items-center justify-center lg:justify-start'>
-                  <img src='/assets/svg/linkedin.svg' alt='linkedin icon' />
-                  <img src='/assets/svg/twitter.svg' alt='twitter icon' />
-                </div>
               </div>
-            </div>
-          </div> */}
-          {/* <!-- Item 3 --> */}
-          {/* <div
-            className='hidden duration-700 ease-in-out bg-blue-primary'
-            data-carousel-item>
-            <div className='flex flex-col lg:flex-row gap-8 items-center rounded-lg p-8 xl:mx-20'>
-              <img
-                className='rounded-lg'
-                src='/assets/images/joseph.png'
-                alt='joseph image'
-              />
 
-              <div className='space-y-6 text-center lg:text-left'>
-                <div className='space-y-2'>
-                  <h2 className='font-medium text-xl text-gold'>
-                    Joseph Ibiyemi Maxwelli
-                  </h2>
-                  <p>Product Designer, Bamboo</p>
+              <div className='space-y-6'>
+                <div className='flex items-center justify-between'>
+                  <div className='flex gap-4 items-center'>
+                    <img src='/images/car-img-2.png' alt='' />
+                    <div>
+                      <h2 className='font-semibold text-lg'>Robert Fox</h2>
+                      <p className='text-sm'>Telegram</p>
+                    </div>
+                  </div>
+                  <img src='/svg/stars.svg' alt='' />
                 </div>
 
-                <p>
-                  I have always wanted to make a career transition to product
-                  design, Vorem made it happen for me. With the hands-on
-                  learning style, real-life business cases and unending
-                  mentorship from my trainers and coaches, I was very impressed
-                  with the project my team and I did in the class, which was hat
-                  i added to my portfolio, and with
+                <p className='text-3xl font-semibold'>
+                  I&apos;ve tested numerous token, but this one is leaps and
+                  bounds ahead of the competition. It&apos;s phenomenal.
                 </p>
-
-                <div className='flex gap-4 items-center justify-center lg:justify-start'>
-                  <img src='/assets/svg/linkedin.svg' alt='linkedin icon' />
-                  <img src='/assets/svg/twitter.svg' alt='twitter icon' />
-                </div>
               </div>
             </div>
           </div> */}
