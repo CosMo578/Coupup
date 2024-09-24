@@ -1,0 +1,67 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 96px;
+  /*========== Colors ==========*/
+  /*Color mode HEX*/
+  --first-color: #0052FF;
+  --second-color:  #61B998;
+  --white-color: #FFF;
+  --text-color: #92939E;
+  --text-color-alt: #DDD;
+  --body-color: #010314;
+  --body-color-alt: #0F101E;
+  
+  /*========== Font and typography ==========*/
+  --body-font: "Outfit", sans-serif;
+  --second-font: "Plus Jakarta", sans-serif;
+ 
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== ABOUT ==========*/
+.section__about{
+    background: url(/public/images/Background.png);
+    width: 100%;
+    z-index: var(--z-fixed);
+}
+
+.section__data{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.section__title{
+    margin-bottom: 1rem;
+        font-size: 18px;
+    font-weight: extra-bold;
+    color:  linear-gradient(rgba(97,185,152,1) 4%, rgba(0,82,255,1) 100%);
+}
+
+.about__title{
+    font-size: 50px;
+}
+
+.about__side{
+    position: absolute;
+    width: 130px;
+    top: 940px;
+}
+
+.about__details{
+    position: relative;
+    padding-inline: 75px;
+    display: flex;
+    column-gap: 44px;
+}
+
+.auction{
+    grid-row: 1 / 5;
+    grid-column: 1 / 3;
+    width: 500px;
+    background-color: var(--body-color-alt);
+}

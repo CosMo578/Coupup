@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 1px solid red;
+} */
+
+.section_padding {
+  @apply lg:px-20 px-8 py-16 w-full;
+}
+
+.gradient_bg {
+  background: linear-gradient(
+    180deg,
+    rgba(229, 248, 198, 1) 0%,
+    rgba(97, 185, 152, 1) 100%
+  );
+}
+
+.gradient_bg_2 {
+  background: rgb(97, 185, 152);
+  background: linear-gradient(
+    180deg,
+    rgba(97, 185, 152, 1) 0%,
+    rgba(1, 3, 20, 1) 100%
+  );
+}
+
+.gradient_text {
+  background: #61b998;
+  background: linear-gradient(to right, #61b998 20%, #0052ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient_hero_text {
+  background: #61b998;
+  background: linear-gradient(to right, #61b998 30%, #0052ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient_header {
+  background: #e5f8c6;
+  background: linear-gradient(to bottom, #e5f8c6 0%, #61b998 98%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient_hero_btn {
+  background: rgb(97, 185, 152);
+  background: linear-gradient(to right, #61b998 20%, #0052ff 100%);
+}
+
+.first_section {
+  background-image: url('/svg/floating-gradient.svg'),
+    url('/svg/first-sec-bg.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200%, 100vw;
+  background-position: -130vw -60vw, bottom;
+}
+
+@media screen and (width > 768px) {
+  .first_section {
+    background-size: 100%, 100vw;
+    background-position: -65vw -30vw, 0;
+  }
+}

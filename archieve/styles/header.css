@@ -1,0 +1,70 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 96px;
+  /*========== Colors ==========*/
+  /*Color mode HEX*/
+  --first-color: #0052FF;
+  --second-color:  #61B998;
+  --white-color: #FFF;
+  --text-color: #92939E;
+  --text-color-alt: #DDD;
+  --body-color: #010314;
+  --body-color-alt: #0F101E;
+  
+  /*========== Font and typography ==========*/
+  --body-font: "Outfit", sans-serif;
+  --second-font: "Plus Jakarta", sans-serif;
+ 
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== HEADER ==========*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--body-color-alt);
+    z-index: var(--z-fixed);
+}
+
+nav{
+    position: relative;
+    height: var(--header-height);
+    padding-inline: 55px;
+    padding-block: 15px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    align-items: center;
+}
+
+.nav__menu{
+    box-shadow: 0 4px 16px #191919;
+    transition: top .4s ease-out;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 45px;
+}
+
+a{
+    position: relative;
+    display: flex;
+    gap: 5.16px;
+    color: var(--white-color);
+    font-family: var(--body-font);
+    font-size: 14px;
+    font-weight: bold;
+}
