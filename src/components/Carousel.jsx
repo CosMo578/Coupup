@@ -11,10 +11,11 @@ const Carousel = () => {
                 <div>
                   <h2 className='font-semibold text-lg'>David Liyan</h2>
                   <p className='text-sm'>Twitter</p>
+                  <img className='lg:hidden mt-3' src='/svg/stars.svg' alt='' />
                 </div>
               </div>
 
-              <img src='/svg/stars.svg' alt='' />
+              <img className='hidden' src='/svg/stars.svg' alt='' />
             </div>
 
             <p className='lg:text-3xl text-xl lg:font-semibold'>
@@ -30,9 +31,11 @@ const Carousel = () => {
                 <div>
                   <h2 className='font-semibold text-lg'>Robert Fox</h2>
                   <p className='text-sm'>Telegram</p>
+                  <img className='lg:hidden mt-3' src='/svg/stars.svg' alt='' />
                 </div>
               </div>
-              <img src='/svg/stars.svg' alt='' />
+
+              <img className='hidden' src='/svg/stars.svg' alt='' />
             </div>
 
             <p className='lg:text-3xl text-xl lg:font-semibold'>
@@ -43,10 +46,14 @@ const Carousel = () => {
         </div>
 
         <div className='absolute left-5 right-5 lg:top-1/2 max-lg:-bottom-16 flex lg:-translate-y-1/2 transform justify-between'>
-          <a href='#slide3' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
+          <a
+            href='#slide3'
+            className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❮
           </a>
-          <a href='#slide2' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
+          <a
+            href='#slide2'
+            className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❯
           </a>
         </div>
@@ -62,10 +69,11 @@ const Carousel = () => {
                 <div>
                   <h2 className='font-semibold text-lg'>David Liyan</h2>
                   <p className='text-sm'>Twitter</p>
+                  <img className='lg:hidden mt-3' src='/svg/stars.svg' alt='' />
                 </div>
               </div>
 
-              <img src='/svg/stars.svg' alt='' />
+              <img className='hidden' src='/svg/stars.svg' alt='' />
             </div>
 
             <p className='lg:text-3xl text-xl lg:font-semibold'>
@@ -81,9 +89,11 @@ const Carousel = () => {
                 <div>
                   <h2 className='font-semibold text-lg'>Robert Fox</h2>
                   <p className='text-sm'>Telegram</p>
+                  <img className='lg:hidden mt-3' src='/svg/stars.svg' alt='' />
                 </div>
               </div>
-              <img src='/svg/stars.svg' alt='' />
+
+              <img className='hidden' src='/svg/stars.svg' alt='' />
             </div>
 
             <p className='lg:text-3xl text-xl lg:font-semibold'>
@@ -93,10 +103,14 @@ const Carousel = () => {
           </div>
         </div>
         <div className='absolute left-5 right-5 lg:top-1/2 max-lg:-bottom-16 flex lg:-translate-y-1/2 transform justify-between'>
-          <a href='#slide1' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
+          <a
+            href='#slide1'
+            className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❮
           </a>
-          <a href='#slide3' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
+          <a
+            href='#slide3'
+            className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❯
           </a>
         </div>
@@ -112,10 +126,11 @@ const Carousel = () => {
                 <div>
                   <h2 className='font-semibold text-lg'>David Liyan</h2>
                   <p className='text-sm'>Twitter</p>
+                  <img className='lg:hidden mt-3' src='/svg/stars.svg' alt='' />
                 </div>
               </div>
 
-              <img src='/svg/stars.svg' alt='' />
+              <img className='hidden' src='/svg/stars.svg' alt='' />
             </div>
 
             <p className='lg:text-3xl text-xl lg:font-semibold'>
@@ -131,9 +146,11 @@ const Carousel = () => {
                 <div>
                   <h2 className='font-semibold text-lg'>Robert Fox</h2>
                   <p className='text-sm'>Telegram</p>
+                  <img className='lg:hidden mt-3' src='/svg/stars.svg' alt='' />
                 </div>
               </div>
-              <img src='/svg/stars.svg' alt='' />
+
+              <img className='hidden' src='/svg/stars.svg' alt='' />
             </div>
 
             <p className='lg:text-3xl text-xl lg:font-semibold'>
@@ -143,10 +160,14 @@ const Carousel = () => {
           </div>
         </div>
         <div className='absolute left-5 right-5 lg:top-1/2 max-lg:-bottom-16 flex lg:-translate-y-1/2 transform justify-between'>
-          <a href='#slide2' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
+          <a
+            href='#slide2'
+            className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❮
           </a>
-          <a href='#slide1' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
+          <a
+            href='#slide1'
+            className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❯
           </a>
         </div>
