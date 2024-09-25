@@ -1,7 +1,8 @@
+
 import GiantCoin from '/images/coin.png';
 const FifthSection = () => {
   return (
-    <section className='gradient_bg flex flex-col items-center rounded-3xl mx-10 mb-24 mt-32 text-black px-10 lg:flex-row-reverse max-lg:pb-16'>
+    <section className='gradient_bg flex flex-col items-center rounded-3xl lg:mx-10 mx-7 lg:mb-24 mb-8 mt-56 text-black px-10 lg:flex-row-reverse max-lg:pb-16'>
       <img
         className='-mt-[38%] lg:-mt-[18%] w-full md:w-auto'
         src={GiantCoin}
@@ -12,7 +13,7 @@ const FifthSection = () => {
         <h2 className='mb-8 text-4xl font-semibold lg:mb-6 lg:text-3xl'>
           Be part of the future
         </h2>
-        <p className='mx-auto mb-8 w-[85%] lg:mx-0 lg:w-full'>
+        <p className='mb-8 lg:mx-0 w-full'>
           With reliability and speed in mind, worldwide data centers provide the
           backbone for ultra-fast connectivity.
         </p>

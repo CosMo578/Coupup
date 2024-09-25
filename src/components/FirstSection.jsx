@@ -1,6 +1,6 @@
 const FirstSection = () => {
   return (
-    <section className='first_section section_padding w-full h-max relative'>
+    <section className='first_section section_padding w-full overflow-hidden relative'>
       <div className='space-y-2 text-center mb-10'>
         <p className='gradient_text uppercase max-lg:text-sm font-bold'>
           About Copup

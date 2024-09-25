@@ -6,6 +6,10 @@
   border: 1px solid red;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section_padding {
   @apply lg:px-20 px-8 py-16 w-full;
 }
@@ -57,13 +61,27 @@
   background-image: url('/svg/floating-gradient.svg'),
     url('/svg/first-sec-bg.svg');
   background-repeat: no-repeat, no-repeat;
-  background-size: 200%, 100vw;
+  background-size: 200%, 100%;
   background-position: -130vw -60vw, bottom;
 }
 
 @media screen and (width > 768px) {
   .first_section {
-    background-size: 100%, 100vw;
-    background-position: -65vw -30vw, 0;
+    background-size: 100%, 100%;
+    /* background-position: -65vw -30vw, 0; */
   }
+}
+
+.hero_bg {
+  background-image: url('/svg/footer-gradient.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+.overflow_bg {
+  background-image: url('/images/Gradient-2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
 }

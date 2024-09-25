@@ -66,7 +66,7 @@ const Footer = () => {
         </form>
       </div>
 
-      <img className='absolute top-1/2 left-0 -translate-y-1/2' src='/svg/footer-gradient.svg' alt='' />
+      <img className='absolute bottom-0 left-0 -top-32' src='/svg/footer-gradient.svg' alt='' />
     </footer>
   );
 };

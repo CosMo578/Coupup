@@ -1,3 +1,5 @@
+import Accordin from './Accordin';
+
 const FourthSection = () => {
   return (
     <section className='relative lg:px-32 px-8 py-10'>
@@ -16,7 +18,9 @@ const FourthSection = () => {
         </p>
       </div>
 
-      <div
+      <Accordin/>
+      
+      {/* <div
         id='accordion-open'
         data-accordion='collapse'
         className='space-y-6'
@@ -25,7 +29,7 @@ const FourthSection = () => {
         <h2 id='accordion-open-heading-1'>
           <button
             type='button'
-            className='flex items-center justify-between rounded-full w-full p-5 font-semibold text-xl lg:pl-12 rtl:text-right gap-3'
+            className='flex items-center justify-between rounded-full w-full p-5 font-semibold lg:text-xl lg:pl-12 lg:rtl:text-right gap-3 text-left'
             data-accordion-target='#accordion-open-body-1'
             aria-expanded='true'
             aria-controls='accordion-open-body-1'>
@@ -34,9 +38,9 @@ const FourthSection = () => {
             </span>
             <div
               data-accordion-icon
-              className='bg-white p-4 flex items-center justify-center rounded-full'>
+              className='bg-white lg:p-4 p-1.5 flex items-center justify-center rounded-full'>
               <svg
-                className='w-3 h-3 shrink-0'
+                className='size-3 shrink-0'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -69,7 +73,7 @@ const FourthSection = () => {
         <h2 id='accordion-open-heading-2'>
           <button
             type='button'
-            className='flex items-center justify-between rounded-full w-full p-5 font-semibold text-xl lg:pl-12 rtl:text-right gap-3'
+            className='flex items-center justify-between rounded-full w-full p-5 font-semibold lg:text-xl lg:pl-12 lg:rtl:text-right gap-3 text-left'
             data-accordion-target='#accordion-open-body-2'
             aria-expanded='false'
             aria-controls='accordion-open-body-2'>
@@ -78,9 +82,9 @@ const FourthSection = () => {
             </span>
             <div
               data-accordion-icon
-              className='bg-white p-4 flex items-center justify-center rounded-full'>
+              className='bg-white lg:p-4 p-1.5 flex items-center justify-center rounded-full'>
               <svg
-                className='w-3 h-3 shrink-0'
+                className='size-3 shrink-0'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -112,7 +116,7 @@ const FourthSection = () => {
         <h2 id='accordion-open-heading-3'>
           <button
             type='button'
-            className='flex items-center justify-between rounded-full w-full p-5 font-semibold text-xl lg:pl-12 rtl:text-right gap-3'
+            className='flex items-center justify-between rounded-full w-full p-5 font-semibold lg:text-xl lg:pl-12 lg:rtl:text-right gap-3 text-left'
             data-accordion-target='#accordion-open-body-3'
             aria-expanded='false'
             aria-controls='accordion-open-body-3'>
@@ -121,9 +125,9 @@ const FourthSection = () => {
             </span>
             <div
               data-accordion-icon
-              className='bg-white p-4 flex items-center justify-center rounded-full'>
+              className='bg-white lg:p-4 p-1.5 flex items-center justify-center rounded-full'>
               <svg
-                className='w-3 h-3 shrink-0'
+                className='size-3 shrink-0'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -154,7 +158,7 @@ const FourthSection = () => {
         <h2 id='accordion-open-heading-4'>
           <button
             type='button'
-            className='flex items-center justify-between rounded-full w-full p-5 font-semibold text-xl lg:pl-12 rtl:text-right gap-3'
+            className='flex items-center justify-between rounded-full w-full p-5 font-semibold lg:text-xl lg:pl-12 lg:rtl:text-right gap-3 text-left'
             data-accordion-target='#accordion-open-body-4'
             aria-expanded='false'
             aria-controls='accordion-open-body-4'>
@@ -163,9 +167,9 @@ const FourthSection = () => {
             </span>
             <div
               data-accordion-icon
-              className='bg-white p-4 flex items-center justify-center rounded-full'>
+              className='bg-white lg:p-4 p-1.5 flex items-center justify-center rounded-full'>
               <svg
-                className='w-3 h-3 shrink-0'
+                className='size-3 shrink-0'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -196,7 +200,7 @@ const FourthSection = () => {
         <h2 id='accordion-open-heading-5'>
           <button
             type='button'
-            className='flex items-center justify-between rounded-full w-full p-5 font-semibold text-xl lg:pl-12 rtl:text-right gap-3'
+            className='flex items-center justify-between rounded-full w-full p-5 font-semibold lg:text-xl lg:pl-12 lg:rtl:text-right gap-3 text-left'
             data-accordion-target='#accordion-open-body-5'
             aria-expanded='false'
             aria-controls='accordion-open-body-5'>
@@ -205,9 +209,9 @@ const FourthSection = () => {
             </span>
             <div
               data-accordion-icon
-              className='bg-white p-4 flex items-center justify-center rounded-full'>
+              className='bg-white lg:p-4 p-1.5 flex items-center justify-center rounded-full'>
               <svg
-                className='w-3 h-3 shrink-0'
+                className='size-3 shrink-0'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -234,8 +238,13 @@ const FourthSection = () => {
             information.
           </div>
         </div>
-      </div>
-      <img className='absolute right-0 bottom-[5%] rotate-180' src='/svg/footer-gradient.svg' alt='' />
+      </div> */}
+
+      <img
+        className='absolute right-0 bottom-[5%] rotate-180'
+        src='/svg/footer-gradient.svg'
+        alt=''
+      />
     </section>
   );
 };

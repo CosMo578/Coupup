@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <main className='section_padding space-y-6 relative'>
+    <main className='section_padding hero_bg space-y-6'>
       <div>
         <p className='font-semibold gradient_hero_text uppercase'>
           Get New Solution
@@ -33,17 +33,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <img
-        className='absolute lg:right-8 -right-[45%] -translate-y-24'
-        src='/images/Gradient-2.svg'
-        alt=''
-      />
-
-      <img
-        className='absolute top-1/2 left-0 -translate-y-1/2'
+      {/* <img
+        className='absolute left-0 bottom-[20%]'
         src='/svg/footer-gradient.svg'
         alt=''
-      />
+      /> */}
     </main>
   );
 };
