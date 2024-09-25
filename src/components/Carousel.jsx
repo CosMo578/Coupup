@@ -42,11 +42,11 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className='absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between'>
-          <a href='#slide3' className='btn btn-circle'>
+        <div className='absolute left-5 right-5 lg:top-1/2 max-lg:-bottom-16 flex lg:-translate-y-1/2 transform justify-between'>
+          <a href='#slide3' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❮
           </a>
-          <a href='#slide2' className='btn btn-circle'>
+          <a href='#slide2' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❯
           </a>
         </div>
@@ -92,11 +92,11 @@ const Carousel = () => {
             </p>
           </div>
         </div>
-        <div className='absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between'>
-          <a href='#slide1' className='btn btn-circle'>
+        <div className='absolute left-5 right-5 lg:top-1/2 max-lg:-bottom-16 flex lg:-translate-y-1/2 transform justify-between'>
+          <a href='#slide1' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❮
           </a>
-          <a href='#slide3' className='btn btn-circle'>
+          <a href='#slide3' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❯
           </a>
         </div>
@@ -142,11 +142,11 @@ const Carousel = () => {
             </p>
           </div>
         </div>
-        <div className='absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between'>
-          <a href='#slide2' className='btn btn-circle'>
+        <div className='absolute left-5 right-5 lg:top-1/2 max-lg:-bottom-16 flex lg:-translate-y-1/2 transform justify-between'>
+          <a href='#slide2' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❮
           </a>
-          <a href='#slide1' className='btn btn-circle'>
+          <a href='#slide1' className='bg-white flex item-center justify-center size-10 pt-2 rounded-full'>
             ❯
           </a>
         </div>

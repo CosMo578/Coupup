@@ -1,7 +1,7 @@
 const Accordin = () => {
   return (
     <div className='space-y-6 text-black'>
-      <div className='gradient_bg collapse rounded-[4rem] p-5 px-8 collapse-arrow bg-base-200'>
+      <div className='gradient_bg collapse lg:rounded-[4rem] p-5 lg:px-8 px-2 rounded-3xl collapse-arrow bg-base-200'>
         <input type='radio' name='my-accordion-2' defaultChecked />
         <div className='collapse-title text-xl font-medium'>
           How are auctions structured on the platform?
@@ -15,7 +15,7 @@ const Accordin = () => {
         </div>
       </div>
 
-      <div className='gradient_bg collapse rounded-[4rem] p-5 px-8 collapse-arrow bg-base-200'>
+      <div className='gradient_bg collapse lg:rounded-[4rem] p-5 lg:px-8 px-2 rounded-3xl collapse-arrow bg-base-200'>
         <input type='radio' name='my-accordion-2' />
         <div className='collapse-title text-xl font-medium'>
           How is the auction winner determined and notified
@@ -28,7 +28,7 @@ const Accordin = () => {
         </div>
       </div>
 
-      <div className='gradient_bg collapse rounded-[4rem] p-5 px-8 collapse-arrow bg-base-200'>
+      <div className='gradient_bg collapse lg:rounded-[4rem] p-5 lg:px-8 px-2 rounded-3xl collapse-arrow bg-base-200'>
         <input type='radio' name='my-accordion-2' />
         <div className='collapse-title text-xl font-medium'>
           How can users acquire copup token
@@ -42,7 +42,7 @@ const Accordin = () => {
         </div>
       </div>
 
-      <div className='gradient_bg collapse rounded-[4rem] p-5 px-8 collapse-arrow bg-base-200'>
+      <div className='gradient_bg collapse lg:rounded-[4rem] p-5 lg:px-8 px-2 rounded-3xl collapse-arrow bg-base-200'>
         <input type='radio' name='my-accordion-2' />
         <div className='collapse-title text-xl font-medium'>
           How are user profiles and wallet managed within the platform
@@ -56,7 +56,7 @@ const Accordin = () => {
         </div>
       </div>
 
-      <div className='gradient_bg collapse rounded-[4rem] p-5 px-8 collapse-arrow bg-base-200'>
+      <div className='gradient_bg collapse lg:rounded-[4rem] p-5 lg:px-8 px-2 rounded-3xl collapse-arrow bg-base-200'>
         <input type='radio' name='my-accordion-2' />
         <div className='collapse-title text-xl font-medium'>
           Are there any plans for future features

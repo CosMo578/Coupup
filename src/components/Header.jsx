@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import logo from '/svg/logo.svg';
 
 const Header = ({ isOpen, setIsOpen }) => {
   return (
@@ -38,7 +37,7 @@ const Header = ({ isOpen, setIsOpen }) => {
             </svg>
           )}
         </button>
-        <img src={logo} alt='logo' width={50} height={50} />
+        <img src='/svg/logo.svg' alt='logo' width={50} height={50} />
       </div>
 
       <nav className='mx-auto hidden lg:block'>
